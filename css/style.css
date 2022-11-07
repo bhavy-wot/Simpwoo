@@ -1,0 +1,2776 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6,p,hr{
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+  border-top: 1px solid #cbcbca;
+  opacity: 0.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.clearfix {
+    display: block;
+}
+  
+.clearfix::before, .clearfix::after {
+    content: "";
+    width: 100%;
+    display: table;
+}
+
+
+
+/* TRIAL BACKGROUND*/
+
+
+/* body {
+    background-color: rgb(253, 97, 123);
+  }
+
+  .wrapper, .wrapper1, .wrapper2 {
+    background-color: rgb(208, 208, 51);
+  }
+
+  div {
+    background-color: rgb(54, 110, 61);
+  }
+  
+  section {
+    background-color: rgb(87, 87, 239);
+  }
+  
+  footer {
+    background-color: rgb(47, 243, 47);
+  } */
+  
+
+  
+
+/*--=-=-=-=-=-=-=WRAPPER--=-=-=-=-=-=-=-=-=*/
+.wrapper{
+    width: 100%;
+}
+
+
+.wrapper1{
+    max-width: 1010px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.wrapper2{
+    max-width: 1104px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+/*----------------------Navbar Section--------------------*/
+
+.navbar{
+    /* padding: 23.5px 0; */
+}
+
+.leftNavbar{
+    float:left;
+    width: 50%;
+    text-transform: uppercase;
+    margin-left: -19px;
+    padding: 9.5px 0;
+}
+
+.rightNavbar{
+    float: right;
+    padding: 9.5px 0;
+}
+
+.rightLinks{    
+    margin-right: -5px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li{
+    display: inline;
+}   
+
+select{
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    width: 50px;
+    font-size: 10px;
+    line-height: 5.308;
+    padding: 5px 1px;
+    color: #797979;
+}
+
+
+.leftNavlink{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 22px 19px;
+    line-height: 3.357;
+}
+
+.rightNavlink{
+    font-size: 14px;
+    padding: 22px 5px;
+    line-height: 3.357;
+}
+
+a{
+    color: #000;
+}
+
+.leftLinks a.active{
+    color: #2e3192;
+}
+
+.leftLinks a:hover{
+    color: #2e3192;
+}
+
+.fa-user{
+    color: #00bff3;
+}
+
+.fa-user:hover{
+    color: #29aee3;
+}
+
+.heart >.nav-heart{
+    color: #dd59ad;
+}
+
+.heart > .nav-heart:hover{
+    color: magenta;
+}
+
+.fa-bag-shopping{
+    color:  rgb(55, 53, 53);
+}
+
+.fa-bag-shopping:hover{
+    color: #000000;
+}
+
+.bagNumber{
+    position: relative;
+    background-color: red;
+    color: #ffffff;
+    z-index: 1;
+    top: 0px;
+    right: 7px;
+    font-size: 9px;
+    padding: 2px 4px;
+    border-radius: 11px;
+}
+
+
+
+/*--------------------------Header Section-------------------------*/
+
+.bottomHeader{
+    /* padding: 11px 0; */
+}
+
+.menu{
+    /* padding: 15px 0; */
+}
+
+
+.logo{
+    /* padding: 40px 0 0; */
+    float: left;
+    padding: 34px 0 26px;
+}
+
+.search {
+    float: right;
+    padding: 24px 0;
+}
+
+.searchBar input{
+    width: 320px;
+    border: 1px solid #fff;
+    padding: 12px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    background: transparent;
+}
+
+.searchBar ::placeholder{
+    color: #ffffff;
+}
+
+
+.bannerImage{
+    height: 750px;
+    background: linear-gradient(rgba(0, 0, 0, 0.635), rgba(0, 0, 0, 0.635)), url('../Assets/Images/background.png');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+
+.banner{
+    color: #ffffff;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.bannerInfo{
+    margin: 0;
+    position: absolute;
+    top: 179px;
+}
+
+.subHeading h3{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.heading h2{
+    padding-bottom: 10px;
+    font-size: 39px;
+    line-height: 1.538;
+    font-weight: 700;
+}
+
+.bannerButton{
+    padding-top: 20px;
+    width: 137px;
+}
+
+.bannerButton button{
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 500;
+    background-color: #2e3192;
+    padding: 15px 26px;
+    transition: 0.3s ease-in;
+}
+
+.bannerButton button:hover{
+    background-color: darkblue;
+}
+
+
+
+
+
+/*------------------------Service Section--------------------------------*/
+
+.service{
+    /* background-color: rgb(164, 237, 100); */
+    padding: 50px 0 71px;
+}
+
+/* .serviceCards{
+    margin-left: -33px;
+    margin-right: -33px;
+} */
+
+.serviceCard{
+    width: 25%;
+    float: left;
+    /* border: 2px solid black; */
+    padding: 20px 28px;
+}
+
+.serviceTitle{
+    color: #2e3192;
+    font-size: 16px;
+    line-height: 1.875;
+    font-weight: 700;
+  }
+
+.serviceDescription{
+    font-size: 16px;
+    line-height: 1.875;
+    font-weight: 300;
+}
+
+
+
+/*--------------------Gallery Section--------------------------------*/
+
+.imageGallery{
+    padding-bottom: 71px;
+}
+
+.galleryLeft{
+    float: left;
+    width: 50%;
+}
+
+.accessoriesImage{
+    background:url('../Assets/Images/accessories.png');
+    width: 93.45%;
+    height: 665px;
+    position: relative;
+    /* background-repeat: no-repeat; */
+}
+
+.galleryRight{
+    float: right;
+    width: 50%;
+    padding-left: 8px;
+}
+
+.galleryRightTop{
+    padding-bottom: 27px;
+}
+
+.galleryRightBottom{
+    padding-top: 28px;
+}
+
+.drinks{
+    float: left;
+    width: 50%;
+}
+
+.drinksImage{
+    background: url('../Assets/Images/drinks.png');
+    width: 100%;
+    height: 306px;
+    position: relative;
+    background-repeat: no-repeat;
+    /* padding-left: 43px;
+    padding-right:22px; */
+}
+
+.electronics{
+    float: left;
+    width: 50%;
+    padding-left: 19px;
+}
+
+.electronicsImage{
+    background: url('../Assets/Images/electronics.png');
+    width: 100%;
+    height: 306px;
+    position: relative;
+    /* padding-left: 22px; */
+    /* background-repeat: no-repeat; */
+}
+
+.footwear{
+    float: left;
+    width: 100%;
+}
+
+.footwearImage{
+    background: url('../Assets/Images/footwear.png');
+    width: 100%;
+    height: 306px;
+    position: relative;
+}
+
+.gallery button{
+    border: none;
+    transition: 0.2s ease-in;
+    /* font-weight: 600; */
+}
+
+
+.accessoriesButton{
+    position: absolute;
+    font-size: 22px;
+    line-height: 1.363;
+    font-weight: 400;
+    top: 40px;
+    left: 40px;
+    background-color: #faf8fb;
+    color: #000000;
+    padding: 16px 22px;
+}
+
+.drinksButton{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.875;
+    background-color: #faf8fb;
+    color: #000000;
+    padding: 8px 20px;
+}
+
+
+.electronicsButton{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.875;
+    background-color: #faf8fb;
+    color: #000000;
+    padding: 8px 20px;
+}
+
+
+.footwearButton{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.875;
+    background-color: #faf8fb;
+    color: #000000;
+    padding: 13px 20px;
+}
+
+.gallery button:hover{
+    background-color: #000;
+    opacity: 0.5;
+    color: #fff;
+}
+
+/*------------------------Product Section--------------------------*/
+
+
+.productHeading{
+    position: relative;
+    padding-top: 71px;
+    padding-bottom: 24px;
+}
+
+.productTitle{
+    background-color: #ffffff;
+    position: relative;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    top: -30px;
+    left: 10px;
+}
+
+
+.productLine hr{
+    border: 1px solid #cccccc;
+}
+
+
+.productHead{
+    font-size: 26px;
+    line-height: 1.153;
+    font-weight: 500;   
+}
+
+.productSubhead{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.75;
+}
+
+.productList{
+    /* padding-top: 25px; */
+}
+  
+.productTitle h3{
+    font-weight: 600;   
+}
+
+.productTitle h6{
+    font-weight: 300;
+}
+
+.productCards{
+    /* padding-top: 25px; */
+    padding-bottom: 50px;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.productCard{
+    width: 25%;
+    float: left;
+    padding: 25px 16px;
+}
+
+.hoverImage{
+    /* padding-bottom: 22px; */
+    position: relative;
+}
+
+.hoverImage1{
+    background: url('../Assets/Images/watch.png');
+    width: 100%;
+    height: 292px;
+    margin-bottom: 10px;
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hoverImage2{
+    background: url('../Assets/Images/sportsshoes.png');
+    width: 100%;
+    height: 292px;
+    margin-bottom: 10px;
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hoverImage3{
+    background: url('../Assets/Images/shoes.png');
+    width: 100%;
+    height: 292px;
+    margin-bottom: 10px;
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hoverImage4{
+    background: url('../Assets/Images/plant.png');
+    position: relative;
+    width: 100%;
+    height: 292px;
+    margin-bottom: 10px;
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hoverImage5{
+    background: url('../Assets/Images/sandal.png');
+    width: 100%;
+    height: 292px;
+    margin-bottom: 10px;
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hoverImage6{
+    background: url('../Assets/Images/mobilecover.png');
+    width: 100%;
+    height: 292px;
+    margin-bottom: 10px;
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hoverImage7{
+    background: url('../Assets/Images/jeans.png');
+    width: 100%;
+    height: 292px;
+    margin-bottom: 10px;
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hoverImage8{
+    background: url('../Assets/Images/blazer.png');
+    width: 100%;
+    height: 292px;
+    margin-bottom: 10px;
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.productInfo{
+    /* border: 1px solid black; */
+    padding-top: 10px;
+}
+
+.productNameDiv{
+    /* padding-bottom: 16px; */
+}       
+
+.productName{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    transition: all 0.2s ease;
+}
+
+.productName:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+  
+.productCategory{
+    float: left;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.928;
+    font-weight: 300;
+}
+  
+.productPrice{
+    float: right;
+    padding-right: 8px;
+    color: red;
+    font-size: 14px;
+    line-height: 1.928;
+    font-weight: 500;
+}
+
+
+/*-------BEGIN: SALE TAG-----*/
+
+
+.saleTagDiv4{
+    position: absolute;
+    left: 75%;
+    background-color: #fc4733;
+    width: 25%;
+    text-align: center; 
+    padding-top: 12px;
+    padding-right: 12.5px;
+    padding-bottom: 8px;
+    padding-left: 12.5px;
+
+}
+
+.sale4{
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+    padding-bottom: 3px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.saleTagDiv5{
+    background-color: #fc4733;
+    width: 25%;
+    text-align: center; 
+    padding-top: 12px;
+    padding-right: 12.5px;
+    padding-bottom: 8px;
+    padding-left: 12.5px;
+
+}
+
+.sale5{
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+    padding-bottom: 3px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.fa-tag{
+    color: #ffffff;
+}
+
+/*--------END: SALE TAG------*/
+
+
+/*============== BEGIN::HOVER CSS=============*/
+
+
+/* .hoverImage1:hover, .hoverImage2:hover, .hoverImage3:hover, .hoverImage4:hover, .hoverImage5:hover,
+.hoverImage6:hover, .hoverImage7:hover, .hoverImage8:hover{
+    opacity: 0.2;
+    transition: 0.3s  ease-in;
+} */
+
+/* .productDetails {
+    width: 120px;
+    margin: 9px 0;
+} */
+
+
+/*=============COMMENTED CODE BELOW*/
+.onHoverInfoDiv{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.785);
+    opacity: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+    border: 1px solid #e1e1e1;
+}
+
+.hoverImage:hover .onHoverInfoDiv{
+    opacity: 1;
+}
+
+.hoverButton{
+    padding: 85px 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*==================END COMMENTED CODE======================*/
+
+
+.viewDetailsButton{
+    cursor: pointer;
+    width: 118px;
+    font-size: 12px;
+    font-family: inherit;
+    border: none;
+    color: #fff;
+    font-weight: 400;
+    background-color: #191819;
+    padding: 9px 10px;
+    margin: 9px 0;
+    text-transform: uppercase;
+}
+
+.addToCartButton{
+    cursor: pointer;
+    width: 118px;
+    font-size: 12px;
+    font-family: inherit;
+    border: none;
+    color: #fff;
+    font-weight: 400;
+    background-color: #41449b;
+    padding: 9px 10px;
+    margin: 9px 0;
+    text-transform: uppercase;
+}
+
+
+.viewDetailsButton:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.3s ease-in;
+}
+
+
+.addToCartButton:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.3s ease-in;
+}
+
+.fa-eye{
+    color: #737373;
+    font-size: 16px;
+}
+
+.fa-eye:hover{
+    color: #000000;
+}
+
+.hoverIcon{
+    font-weight: 500;
+}
+
+.hoverIcon i{
+    margin: 0 5px;
+}
+
+/*END:: HOVER CSS*/
+
+
+.m-productButton{
+    width: 100%;
+    display: none;
+    margin: 0 5px;
+}
+
+.m-addToCartButton{
+    width: 50%;
+    float: left;
+    transition: 0.3s ease-in;
+}
+
+.m-viewDetailsButton{
+    width: 50%;
+    float: left;
+    transition: 0.3s ease-in;
+}
+
+.m-addToCartButton button{
+    /* padding: 15px 40px; */
+    padding: 15px 0;
+    cursor: pointer;
+    width: 90%;
+    font-size: 10px;
+    font-family: inherit;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    background-color: #41449b;
+    margin: 9px 0;
+    text-transform: uppercase;
+}
+
+.m-viewDetailsButton button{
+    /* padding: 15px 40px; */
+    padding: 15px 0;
+    cursor: pointer;
+    width: 90%;
+    font-size: 10px;
+    font-family: inherit;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    background-color: #191819;
+    margin: 9px 0;
+    text-transform: uppercase;
+}
+
+.m-addToCartButton button:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.3s ease-in;
+}
+
+
+.m-viewDetailsButton button:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.3s ease-in;
+}
+
+
+
+
+/*------------------------------BlogList Section----------------------------------*/
+
+
+.blogHeading{
+    position: relative;
+    padding-top: 84px;
+    padding-bottom: 21px;
+}
+
+
+.blogLine hr{
+    border: 1px solid #cccccc;
+}
+
+
+.blogTitle{
+    background-color: #ffffff;
+    position: relative;
+    width: 440px;
+    text-align: center;
+    margin: 0 auto;
+    top: -30px;
+    left: 10px;
+}
+
+.blogHead{   
+    font-size: 26px;
+    line-height: 1.153;
+    font-weight: 500;   
+}
+
+.blogSubhead{
+    font-size: 12px;
+    line-height: 1.75;
+    font-weight: 300;
+}
+
+ .blogMainSection{
+    padding-top: 55px;
+    margin: 0 auto  ;
+    /* padding-bottom: 44px; */
+ }
+
+ .blogDivisions{
+    padding-bottom: 56px;
+ }
+
+ .blogDivLeft{
+    float: left;
+    width: 50%;
+    /* padding-right: 38px; */
+    padding-bottom: 34px;
+    padding-top: 34px ;
+ }
+
+ .blogDivRight{
+    float: left;
+    width: 50%;
+    padding-bottom: 34px;
+    padding-top: 34px;
+    /* padding-left: 38px; */
+ }
+
+
+
+ .blogImage1{
+    float: left;
+    background: url('../Assets/Images/blog1.png');
+    width: 50%;
+    height: 191px;
+    /* margin-right: 13px; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+
+
+ .blogImage2{
+    float: left;
+    background: url('../Assets/Images/blog2.png');
+    width: 50%;
+    height: 191px;
+    /* margin-right: 13px; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+
+.blogImage3{
+    float: left;
+    background: url('../Assets/Images/blog3.png');
+    width: 50%;
+    height: 191px;
+    /* margin-right: 13px; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blogImage4{
+    float: left;
+    background: url('../Assets/Images/blog4.png');
+    width: 50%;
+    height: 191px;
+    /* margin-right: 13px; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.blogDetails{
+    float: left;
+    width: 45%;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+
+.blogName{
+    font-size: 16px;
+    width: 90%;
+    line-height: 1.75;
+    font-weight: 500;
+    padding-bottom: 7px;
+    transition: 0.3s all ease;
+}
+
+.blogName:hover{
+    cursor: pointer;
+    color: #2e3192;
+}
+
+.blogParagraph{
+    width: 90%;
+    font-size: 14px;
+    line-height: 1.642;
+    font-weight: 200;
+    padding-top: 7px;
+    padding-bottom: 6px;
+}
+
+.blogDate{
+    font-size: 12px;
+    line-height: 1.916;
+    font-weight: 300;
+    color: #0054a6;
+    padding-top: 6px;
+}
+
+
+
+/*--------------------------------Newsletter Section-----------------------------------*/
+
+.newsletter{
+    padding-top: 66px;
+}
+
+
+ 
+.newsletterSection{
+    background-color: #eeefff;
+    padding-bottom: 108px;
+    padding-top: 89px;
+}
+
+
+.newsletterTitle{
+    text-align: center;
+    margin: 0 auto;
+    color: #363636;
+    padding-bottom: 12px;
+}
+
+.newsletterHeading{
+    font-size: 25px;
+    line-height: 1.546;
+    font-weight: 400;
+}
+
+.newsletterSubheading{
+    font-size: 25px;
+    line-height: 1.546;
+    font-weight: 300;
+}
+
+.signUpForm{
+    padding-top: 18px;
+    margin: 0 auto;
+}
+
+.signUp{
+    width:600px;
+    margin: 0 auto;
+}
+
+.signUp > input[type=text]{
+    width: 70%;
+    padding: 14px 10px;
+    margin: 0 auto;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.642;
+    font-weight: 200;
+    background: #fefefe;
+}
+
+.subscribeButton{
+    cursor: pointer;
+    width: 25%;
+    font-size: 14px;
+    line-height: 1.642;
+    font-family: inherit;
+    font-weight: 300;
+    padding: 13.5px 20px;
+    background-color: #2e3192;
+    color: #ffffff;
+    border: none;
+    transition: 0.3s ease-in;
+    margin-left: 13px;
+}
+
+.signUp button:hover{
+    background-color: rgb(3, 3, 255);
+}
+
+
+/*----------------------------ContactUs-----------------------------------*/
+
+
+.contactSection{
+    background-color: #fdfdfd;
+    padding-top: 47px;
+    padding-bottom: 60px;
+
+}
+
+/* .contactCards{
+} */
+
+.contactCard1{
+    width: 333px;
+    float: left;
+    margin-right: 43px;
+    /* border: 2px solid black; */
+}
+
+.contactCard2{
+    width: 132px;
+    float: left;
+    margin-left: 43px;
+    margin-right: 42px;
+    /* padding: 0 20px; */
+    /* border: 2px solid black; */
+}
+
+.contactCard3{
+    width: 125px;
+    float: left;
+    margin-left: 42px;
+    margin-right: 38px;
+    /* padding: 0 20px; */
+    /* border: 2px solid black; */
+}
+
+.contactCard4{
+    width: 130px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 20px;
+    /* padding: 0 20px; */
+    /* border: 2px solid black; */
+}
+
+.contactCardTitle{
+    text-align: left;
+    font-size: 14px;
+    line-height: 2.642;
+    font-weight: 300;
+    transition: 0.3s all ease;
+}   
+
+.contactCardTitle:hover{
+    cursor: pointer;
+    color: #2e3192;
+}
+
+.contactCard1Info{
+    font-size: 12px;
+    line-height: 2;
+    font-weight: 300;
+}
+
+
+.contactCard2Info{
+    font-size: 12px;
+    line-height: 2.33;
+    font-weight: 300;
+}
+
+
+.contactCard3Info{
+    font-size: 12px;
+    line-height: 2.33;
+    font-weight: 300;
+}
+
+
+.contactCard4Call{
+    font-size: 12px;
+    line-height: 3.167;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.contactCard4Email{
+    font-size: 12px;
+    line-height: 3.167;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.contactCardInfo:hover{
+    color: #2e3192;
+    cursor: pointer;
+}
+
+
+/*----------------------------Footer-------------------------------------*/
+
+.footerSection{
+    background-color: #ffffff;
+    padding: 53px 0 46px;
+}
+
+.footerHeading{
+    text-align: center;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 300;
+    padding-bottom: 28px;
+}
+
+.footerLinks{
+    margin: 0px auto;
+    text-align: center;
+}
+
+.footerLinks a{
+    padding-right: 9px;
+    transition: all 0.3s ease;
+}
+
+.fa-brands{
+    color: #abaaaa;
+    font-size: 16px;
+}
+
+.fa-brands:hover{
+    color: #000000;
+}
+
+
+/*=========BAR ICON FOR HAMBURGER========*/
+
+.fa-bars{
+    display: none;
+}
+
+
+
+/*-----------------END-------------------*/ 
+
+
+/*============> MEDIA QUERIES <=============*/
+
+/*==-=-=-=-=-=-=-=-=-=-=-= MEDIA - 1-=-=-=-=-=-=-=-=-=-===*/
+@media (max-width:1124px){
+    .wrapper1{
+        max-width: 100%;
+    }
+
+    .wrapper2{
+        max-width: 100%;
+    }
+
+
+    /*======NAVBAR=========*/
+
+    .navbar{
+        padding: 0 20px;
+    }
+
+    .leftNavlink{
+        font-size: 12px;
+        padding-left: 15px;
+    }
+
+
+    .leftNavlink{
+        padding: 18px 19px;
+    }
+
+    .bannerImage{
+        height: 90vh;
+    }
+
+    /*=======SERVICE SECTION========*/
+
+    .serviceCard{
+        width: 25%;
+        float: left;
+        padding: 10px 20px;
+    }
+    
+    .serviceTitle{
+        color: #2e3192;
+        line-height: 1.875;
+        font-weight: 700;
+      }
+    
+    .serviceDescription{
+        font-size: 12px;
+        line-height: 1.875;
+        font-weight: 300;
+    }
+
+    /*=======GALLERY========*/
+    .galleryLeft {
+        padding-left: 10px;
+    }
+
+    .galleryRight{
+        padding-right: 10px;
+    }
+
+    /*=======PRODUCT SECTION========*/
+    .productTitle{
+        width: 340px;
+        top: -25px;
+        left: 10px;
+    }
+
+    .productHead{   
+        font-size: 20px;
+    }
+    
+    .productSubhead{
+        font-size: 10px;
+    }
+
+    .productCards{
+        margin: 0
+    }
+
+    .productCard{
+        /* width: 50%; */
+        padding: 16px;
+    }
+
+    .productInfo{
+        width: 50%;
+    }
+
+    .productDetailsDiv{
+        width: 220px;
+    }   
+
+    .productNameDiv{
+        width: 150px;
+    }
+
+    .productName{
+        font-size: 16px;
+    }
+
+    .productCategory{
+        font-size: 14px;
+    }
+
+    .productPrice{
+        font-size: 14px;
+    }
+
+    .onHoverInfoDiv{
+        left: 0;
+    }
+
+    .productDetails{
+        margin-left: 5px;
+    }
+
+    .hoverIcon{
+        font-size: 12px;
+    }
+
+    .fa-eye, .fa-gratipay{
+        font-size: 12px;
+    }
+
+
+   
+    /*======BLOG SECTION============*/
+
+    .blogTitle{
+        width: 340px;
+        top: -25px;
+        left: 10px;
+    }
+
+    .blogHead{   
+        font-size: 20px;
+    }
+    
+    .blogSubhead{
+        font-size: 10px;
+    }
+
+    .blogMainSection{
+        padding-top: 30px;
+     }
+    
+    .blogDivisions{
+        padding-bottom: 30px;
+    }
+
+    .blogDivLeft{
+        padding-right: 10px;
+        padding-left: 10px;
+     }
+    
+    .blogDivRight{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .blogDetails{
+        /* width: 90%; */
+        margin-top: 15px;
+        margin-left: 13px;
+    }
+
+    .blogName{
+        font-size: 14px;
+        width: 100%;
+        padding-bottom: 9px;
+    }
+    
+    .blogParagraph{
+        font-size: 12px;
+        padding-top: 9px;
+        padding-bottom: 8px;
+    }
+    
+    .blogDate{
+        font-size: 12px;
+        padding-top: 8px;
+    }
+    
+
+    /*=======NEWSLETTER SECTION========*/
+    .newsletter{
+        width: 100%;
+    } 
+
+    .newsletterHeading{
+        font-size: 20px;
+        line-height: 1.546;
+        font-weight: 400;
+    }
+
+    .newsletterSubheading{
+        font-size: 20px;
+        line-height: 1.546;
+        font-weight: 300;
+    }
+        
+    .signUp{
+        width:500px;
+        margin: 0 auto;
+    }
+
+
+    .signUp > input[type=text]{
+        width: 375px;
+        padding: 8px 4px;
+        font-size: 14px;
+        background: #fefefe;
+    }
+
+    .subscribeButton{
+        width: 100px;
+        font-size: 12px;
+        padding: 10px 16px;
+    }
+
+
+    /*=======Contact Section=======*/
+    .contactCards{
+        margin: 0 50px 0 70px;
+    }
+    
+    .contactCard1{
+        width: 265px;
+        float: left;
+        margin-left: 60px;
+        margin-right: 35px;
+        /* border: 2px solid black; */
+    }
+    
+    .contactCard2{
+        width: 110px;
+        float: left;
+        margin-left: 25px;
+        margin-right: 25px;
+        /* padding: 0 20px; */
+        /* border: 2px solid black; */
+    }
+    
+    .contactCard3{
+        width: 105px;
+        float: left;
+        margin-left: 25px;
+        margin-right: 20px;
+        /* padding: 0 20px; */
+        /* border: 2px solid black; */
+    }
+    
+    .contactCard4{
+        width: 110px;
+        float: left;
+        margin-left: 20px;
+        margin-right: 6px;
+        /* padding: 0 20px; */
+        /* border: 2px solid black; */
+    }
+
+
+    .contactCardTitle{
+        text-align: left;
+        font-size: 11px;
+        line-height: 2.642;
+        font-weight: 300;
+    }
+
+    .contactCard1Info{
+        font-size: 10px;
+        line-height: 2;
+        font-weight: 300;
+    }
+
+
+    .contactCard2Info{
+        font-size: 10px;
+        line-height: 2.33;
+        font-weight: 300;
+    }
+
+
+    .contactCard3Info{
+        font-size: 10px;
+        line-height: 2.33;
+        font-weight: 300;
+    }
+
+
+    .contactCard4Call{
+        font-size: 10px;
+        line-height: 3.167;
+        font-weight: 400;
+    }
+
+    .contactCard4Email{
+        font-size: 9px;
+        line-height: 3.167;
+        font-weight: 300;
+    }
+
+
+    /*=======Footer======*/
+    .footerSection{
+        padding: 33px 0 29px;
+    }
+
+    .footerHeading{
+        text-align: center;
+        font-size: 12px;
+        line-height: 2;
+        font-weight: 300;
+        padding-bottom: 18px;
+    }
+
+    .fa-brands{
+        color: #abaaaa;
+        font-size: 14px;
+    }
+
+}
+
+/*-=-=-=-=-=-=-=-=-=-=-=-MEDIA - 2-=--=-=-=-=-=-=-=-=-===*/
+@media (max-width: 1080px){
+    /*------NAVBAR------*/
+
+
+    /*------HEADER------*/
+
+
+
+    /*------BANNER------*/
+    .bannerImage{
+        height: 95vh;
+    }
+
+
+    /*------SERVICE------*/
+
+
+
+    /*------GALLERY------*/
+
+
+
+    /*------PRODUCT------*/
+
+    /* .productCard{
+        padding: 15px;
+    } */
+
+    /*------BLOG------*/
+
+
+
+    /*------NEWSLETTER------*/
+
+
+
+    /*------CONTACT------*/
+
+
+    /*------FOOTER------*/
+}
+
+/*====-=-=-=-=-=-=-=-=-=-=-MEDIA -3=-=-=-=-=-=-=-=-=-=-===*/
+@media (max-width:991px){ 
+
+    .bannerImage{
+        height: 95vh;
+    }
+
+    .leftNavbar{
+        width: 70%;
+    }
+
+    /*========SERVICE SECTION=======*/
+
+    .serviceCard{
+        padding: 10px 14px ;
+    }
+
+    .serviceTitle{
+        font-size: 12px;
+    }
+    
+    .serviceDescription{
+        font-size: 12px;
+    }
+
+    /*========GALLERY SECTION========*/
+    .galleryLeft{
+        float: none;
+        margin: 15px auto;
+        width: 100%;
+        padding: 0 10px;
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+
+    .galleryRight{
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+
+    .accessoriesImage{
+        width: 100%;
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }   
+
+    .drinksImage{
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+
+    .electronicsImage{
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+
+    .footwearImage{
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }   
+
+    .gallery button:hover{
+        opacity: 1;
+        background-color: #faf8fb;
+        color: #000000;
+    }
+    
+    /*=======PRODUCT SECTION=========*/
+
+    .productCard{
+        margin-bottom: 25px;
+    }   
+
+    .productCards{
+        padding-bottom: 0;
+    }
+
+    .productCard{
+        width: 50%;
+        padding: 0 75px;
+    }
+
+    .productInfo{
+        width: 100%;
+    }
+
+    .productName{
+        /* font-size: 12px; */
+        width: 150px;
+    }
+
+    .productCategory{
+        /* font-size: 10px; */
+    }
+
+    .productDetailsDiv{
+        width: 100%;
+    }
+
+    .onHoverInfoDiv{
+        left: 0%;
+    }
+
+    .productDetails{
+        margin-left: 12px;
+    }
+
+    .hoverIcon{
+        font-size: 12px;
+    }
+
+    .fa-eye, .fa-gratipay{
+        font-size: 12px;
+    }
+
+
+    /*=======BlOG SECTION========*/
+    .blogDetails{
+        margin-left: 15px ;
+    }
+
+    .blogName{
+        font-size: 12px;
+    }
+
+    .blogParagraph{
+        font-size: 10px;
+    }
+
+    .blogDate{
+        font-size: 10px;
+    }
+  
+
+
+    /*=======CONTACT SECTION=========*/
+    .contactCards{
+        /* margin: 0 75px; */
+    }
+
+    .contactCard1{
+        width: 70%;
+        margin: 0;
+    }
+    .contactCard2{
+        width: 30%;
+        margin: 0;
+        margin-bottom: 20px;
+    } 
+    .contactCard3{
+        width: 70%;
+        margin: 0;
+    }
+    .contactCard4{
+        width: 30%;
+        margin: 0;
+    }
+
+    .contactCardTitle p{
+        font-size: 12px;
+    }
+
+    .contactCard1Info, .contactCard2Info, .contactCard3Info, .contactCard4Call, .contactCard4Email{
+        font-size: 12px;
+    }
+
+    .contactCard1InfoDiv{
+        width: 80%;
+    }
+
+
+    .footerHeading p{
+        font-size: 14px ;
+    }
+}
+
+
+/*===-=-=-=-=-=-=-=-=-=-=- MEDIA - 4-=-=-=-=-=-=-=-=-=-=-==*/
+@media (max-width:767px){
+
+    /*======NAVBAR SECTION======*/
+
+    .bannerImage{
+        height: 90vh;
+    }
+
+    /*========================*/
+    .fa-bars {
+        display: block;
+        font-size: 24px;
+      }
+    
+      .navbar {
+        padding: 20px 0;
+        position: relative;
+      }
+    
+      .navbarInner {
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: -5000px;
+        left: 0;
+        z-index: 1000;
+        transition: all 0.4s ease;
+        padding: 20px;
+        border-radius: 0 0px 30px 30px;
+      }
+    
+      .hamIcon i {
+        cursor: pointer;
+      }
+    
+      .leftNavbar {
+        width: 100%;
+      }
+    
+      .navbarInner ul li a {
+        display: block;
+        font-weight: 500;
+        /* text-align: center; */
+      }
+    
+      .rightNavbar {
+        float: none;
+        display: block;
+      }
+    
+      .rightNavbar ul li a {
+        display: inline-block;
+      }
+      .rightNavbar ul li {
+        margin: 10px;
+      }
+    
+      .active {
+        top: 100%;
+      }
+
+    /*======BANNER SECTION======*/
+
+    .bottomHeader{
+        background-color: rgb(0, 0, 0);
+    }
+
+    .logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .search{
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+
+    .searchBar input{
+        width: 80%;
+    }
+
+
+    .subHeading h3{
+        font-size: 20px;
+    }
+
+    .heading h2{
+        font-size: 29px;
+    }
+
+    .bannerButton{
+        padding-top: 16px;
+        width: 120px;
+    }
+
+    .bannerButton button{
+        font-size: 10px;
+        padding: 10px 21px;
+    }
+    
+
+    /*========SERVICE SECTION====*/
+
+    .service{
+        /* padding-top: 25px;
+        padding-bottom: 35px; */
+    }
+
+
+    .serviceCard{
+        padding: 10px 5px;
+    }
+
+    .serviceTitle{
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .serviceDescription{
+        font-size: 10px;
+    }
+
+
+
+    /*========GALLERY SECTION========*/
+
+    .galleryLeft, .galleryRight{
+        width: 100%;
+    }
+
+    .accessoriesImage{
+        height: 350px;  
+    }
+
+    .drinks{
+        float: none;
+        width: 100%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .drinksImage{
+        height: 350px;
+    }
+
+    .electronics{
+        float: none;
+        width: 100%;
+        padding-left: 0;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .electronics{
+        height: 350px;
+        margin-top: 25px;
+    }
+
+    .footwear{
+        float: none;
+        width: 100%;
+    }
+
+    .footwearImage{
+        height: 350px;
+    }
+
+    .accessoriesButton {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.875;
+        background-color: rgb(250 248 251);
+        color: rgb(0 0 0);
+        padding: 8px 20px;
+    }
+
+
+    .galleryRightTop{
+        padding-bottom: 8px;
+    }
+
+    .galleryRightBottom{
+        padding-top: 8px;
+    }
+
+
+  
+
+    /*=======PRODUCT SECTION=========*/
+
+    .productCard{
+        width: 50%;
+        padding: 0 10px;
+        /* padding-left: 60px; */
+    }
+
+    .productDetails{
+        margin-left: 45px;
+    }
+
+    /* .saleTagDiv4{
+        left: 67%;
+    }
+     */
+    .onHoverInfoDiv{
+        display: none;
+    }
+
+    .m-productButton{
+        display: block;
+    }
+
+    .viewDetailsButton, .addToCartButton{
+        font-size: 10px;
+    }
+
+    .productDetails{
+        margin-left: 25px;
+        font-size: 12px;
+    }
+
+    .fa-gratipay, .fa-eye{
+        font-size: 12px;
+    }
+
+
+    /*==========BLOG SECTION===========*/
+
+    .blogHeading{
+        padding-bottom: 0;
+    }
+
+    .blogMainSection{
+        padding-top: 0;
+        margin-left: 30px;
+    }
+
+    .blogImage1, .blogImage2, .blogImage3, .blogImage4{
+        width: 90%;
+    }
+
+    .blogDetails{
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .blogDivLeft, .blogDivRight{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+    .blogName{
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .blogParagraph{
+        width: 90%;
+        font-size: 12px;
+    }
+
+    .blogDate{
+        font-size: 12px;
+    }
+
+    /*=======NEWSLETTER SECTION========*/
+
+    .newsletterHeading{
+        font-size: 16px;
+        line-height: 1.546;
+        font-weight: 400;
+    }
+
+    .newsletterSubheading{
+        font-size: 16px;
+        line-height: 1.546;
+        font-weight: 300;
+    }
+        
+    .signUp{
+        width:400px;
+        margin: 0 auto;
+    }
+
+
+    .signUp > input[type=text]{
+        width: 275px;
+        padding: 8px 4px;
+        font-size: 14px;
+        background: #fefefe;
+    }
+
+    .subscribeButton{
+        width: 100px;
+        font-size: 12px;
+        padding: 10px 16px;
+    }
+
+
+    /*=======CONTACT SESSION========*/
+
+    .contactCards{
+        margin: 0 25px;
+    }
+
+    .contactCard1InfoDiv{
+        width: 80%;
+    }
+
+    .contactCard1Info{
+        width: 100%;
+        text-align: center;
+    }
+    /*===========FOOTER=========*/
+
+    .footerHeading p{
+        font-size: 14px;
+    }
+
+}
+
+/*===-=-=-=-=-=-=-=-=-=-=- MEDIA - 5-=-=-=-=-=-=-=-=-=-=-==*/
+@media (max-width:600px){
+
+
+/*==========HEADER=================*/
+
+.searchBar input{
+    /* width: 220px; */
+    padding: 10px;
+}
+
+.bannerImage{
+    height: 90vh;
+}
+
+.bannerButton button{
+    font-size: 11px;
+}
+
+/*===========Service Section===================*/
+
+.service{
+    padding: 25px 0;
+}
+
+
+.serviceCard{
+    width: 50%;
+}
+
+.serviceTitle{
+    text-align: center;
+    font-size: 10px;
+}
+
+.serviceDescription{
+    text-align: center;
+    font-size: 10px;
+}
+
+/*=======GALLERY===============*/
+
+/* .galleryLeft, .galleryRight{
+    width: 100%;
+} */
+
+/*=========Product Section==================*/
+
+
+/*=========BLOG SECTION=====================*/
+
+.blogDetails{
+    width: 90%;
+}
+
+.blogName{
+    width: 90%;
+}
+
+.blogParagraph{
+    width: 90%;
+}
+
+
+}
+
+/*===-=-=-=-=-=-=-=-=-=-=-MEDIA - 6-=-=-=-=-=-=-=-=-=-=-===*/
+@media (max-width:480px){
+   
+    /*-----------NAVIGATION---------*/
+    
+
+    /*-----------HEADER---------*/
+    
+
+    /*-----------BANNER---------*/
+
+    .bannerImage{
+        height: 90vh;
+    }
+
+    .subHeading h3{
+        font-size: 15px;
+    }
+
+    .heading h2{
+        font-size: 20px;
+    }
+
+    .bannerButton{
+        padding-top: 16px;
+        width: 80px;
+    }
+
+    .bannerButton button{
+        font-size: 11px;
+        width: 125px;
+        padding: 14px 0px;
+    }   
+    
+
+    /*-----------SERVICE---------*/
+    .service{
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    .serviceCards{
+        margin: 0;
+    }
+
+    .serviceCard{
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+
+    .serviceTitle{
+        text-align: center;
+    }
+
+    .serviceDescription{
+        text-align: center;
+    }
+    
+    /*-----------GALLERY---------*/
+
+    .imageGallery{
+        padding-bottom: 70px;
+    }
+
+    .galleryLeft{
+        float: none;
+        width: 100%;
+        padding-bottom: 25px;
+        padding-left: 0;
+        margin-left: 5px;
+    }
+
+    .galleryRight{
+        float: none;
+        width: 100%;
+        padding-left: 0;
+        margin-left: 5px;
+    }
+
+    .drinks{
+        float: none;
+        padding-bottom: 20px;
+    }
+    
+    .electronics{
+        float: none;
+        padding-bottom: 19px;
+        padding-left: 0;
+    }
+
+    .footwear{
+        float: none;
+    }
+
+
+    /*-----------PRODUCT---------*/
+
+    .productHeading{
+        padding-top: 10px;
+        padding-bottom: 14px;
+    }
+
+    .productTitle{
+        width: 100%;
+        top: -17px;
+        left: 0px;
+    }   
+
+
+    .productHead{   
+        font-size: 16px;
+    }
+    
+    .productSubhead{
+        font-size:12px;
+    }
+
+    .productLine{
+        display: none;
+    }
+
+    
+    .hoverImage1, .hoverImage2, .hoverImage3, .hoverImage4, .hoverImage5,
+    .hoverImage6, .hoverImage7, .hoverImage8{
+        width: 100%;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+
+
+    .hoverImage1:hover, .hoverImage2:hover, .hoverImage3:hover, .hoverImage4:hover, .hoverImage5:hover,
+    .hoverImage6:hover, .hoverImage7:hover, .hoverImage8:hover{
+        opacity: 1;
+    }
+
+
+    .productCard{
+        width: 100%;
+        /* padding-left: 25px; */
+        /* margin-left: 5px; */
+        padding: 0;
+    }
+
+    /* .productHead{   
+        font-size: 14px;
+    }
+    
+    .productSubhead{
+        font-size:8px;
+    } */
+
+    .onHoverInfoDiv{
+        display: none;
+    }
+    /*-----------BLOG---------*/
+
+ 
+
+    .blogTitle{
+        width: 100%;
+        top: -17px;
+        left: 0px;
+    }
+
+    .blogHeading{
+        padding-bottom: 8px;
+    }
+
+    .blogHead{   
+        font-size: 16px;
+    }
+    
+    .blogSubhead{
+        font-size:12px;
+    }
+
+    .blogLine{
+        display: none;
+    }
+
+    .blogMainSection{
+        margin-left: 0px;
+    }
+
+    .blogDivisions{
+        padding-bottom: 0;
+    }
+
+    .blogDivLeft{
+        width: 100%;
+        float: none;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 15px;
+     }
+    
+    .blogDivRight{
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .blogDiv{
+        margin: 0 auto;
+    }
+    
+    .blogDetails{
+        /* width: 90%; */
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .blogImage1, .blogImage2, .blogImage3, .blogImage4{
+        width: 100%;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+
+    .blogName{
+        font-size: 14px;
+        width: 100%;
+        padding-bottom: 9px;
+    }
+    
+    .blogParagraph{
+        width: 100%;
+        font-size: 12px;
+        padding-top: 9px;
+        padding-bottom: 8px;
+    }
+    
+    .blogDate{
+        font-size: 10px;
+        padding-top: 8px;
+    }
+
+    /*-----------NEWSLETTER---------*/
+    .newsletter{
+        padding-top: 18px;
+    }
+    
+    
+     
+    .newsletterSection{
+        background-color: #eeefff;
+        padding-bottom: 70px;
+        padding-top: 40px;
+    }
+    
+    
+    .newsletterTitle{
+        text-align: center;
+        padding-bottom: 12px;
+    }
+    
+    .newsletterHeading{
+        font-size: 15px;
+    }
+    
+    .newsletterSubheading{
+        font-size: 12px;
+    }
+    
+    .signUpForm{
+        padding-top: 18px;
+        margin: 0 auto;
+    }
+    
+    .signUp{
+        width:275px;
+        margin: 0 auto;
+    }
+    
+    .signUp > input[type=text]{
+        width: 260px;
+        padding: 8px 10px;
+        margin: 0 auto;
+        font-size: 10px;
+    }
+    
+    .subscribeButton{
+        width: 121px;
+        font-size: 10px;
+        padding: 10px;
+        margin-top: 13px;
+        margin-left: 65px;
+    }
+
+    /*-----------CONTACT---------*/  
+
+    .contactCards{
+        margin: 0 15px;
+    }
+    
+    .contactSection{
+        padding-bottom: 30px;
+    }
+
+    .contactCard1{
+        width: 90%;
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+    
+    .contactCard2{
+        width: 90%;
+        float: none;
+        text-align: center;
+        /* margin-left: 0;
+        margin-right: 0; */
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+    
+    .contactCard3{
+        width: 90%;
+        float: none;
+        text-align: center;
+        /* margin-left: 0;
+        margin-right: 0; */
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+    
+    .contactCard4{
+        width: 90%;
+        float: none;
+        text-align: center;
+        /* margin-left: 0;
+        margin-right: 0; */
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+
+    .contactCardTitle{
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .contactCard1Info{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .contactCard1InfoDiv{
+        width: 100%;
+    }
+
+
+    /*-----------FOOTER---------*/
+
+    .footerSection{
+        padding: 25px 0 23px;
+    }
+    
+    .footerHeading{
+        font-size: 10px;
+        padding-bottom: 28px;
+    }
+    
+    .footerLinks a{
+        padding-right: 6px;
+    }
+    
+    .fa-brands{
+        font-size: 14px;
+    }
+    
+}
+
+/*===-=-=-=-=-=-=-=-=-=-=-MEDIA - 7-=-=-=-=-=-=-=-=-=-=-===*/
+@media (max-width:320px){
+    /*------NAVBAR------*/
+
+    .leftNavlink{
+        padding: 9px 10px;
+    }
+
+    /*------HEADER------*/
+    .bottomHeader{
+        background-color: rgb(0, 0, 0);
+    }
+
+    .logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .search{
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+
+    .searchBar input{
+        width: 80%;
+    }
+
+    /*------BANNER------*/
+
+    .bannerImage{
+        height: 90vh;
+    }
+
+    .bannerInfo{
+        top: 100px;
+    }
+
+
+    /*------SERVICE------*/
+
+    .service{
+        width: 100%;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .serviceCards{
+        margin: 0;
+    }
+
+    .serviceCard{
+        width: 100%;
+        text-align: left;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+
+    .serviceTitle{
+        text-align: left;
+    }
+
+    .serviceDescription{
+        text-align: left;
+    }
+    /*------GALLERY------*/
+
+    .imageGallery{
+        padding-bottom: 25px;
+    }
+
+    .galleryRight{
+        margin-left: 6px;
+    }
+    /*------PRODUCT------*/
+
+    .productHeading{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .productTitle{
+        top: 0;
+        left: 0;
+        margin: 0 20px;
+    }
+
+    .productCard{
+        margin-left: 0;
+        padding-left: 25px;
+    }
+
+    .productInfo{
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .productPrice{
+        float: right;
+        margin-left: 45px;
+    }
+
+    .onHoverInfoDiv{
+        opacity: 1;
+        top: 127%;
+        left: 0%;
+    }
+    /*------BLOG------*/
+
+    .blogLine{
+        display: none;
+    }
+
+
+    .blogTitle{
+        margin-left: 8px;
+    }
+
+    .blogMainSection{
+        padding-top: 0;
+    }   
+
+    .blogHeading{
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    
+    .blogDivLeft, .blogDivRight {
+        padding-left: 10px;
+    }
+
+    .blogImage1, .blogImage2, .blogImage3, .blogImage4{
+        width: 100%;
+    }
+
+    .blogName{
+        width: 100%;
+    }
+    /*------NEWSLETTER------*/
+
+    .newsletterSection{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .signUpForm{
+        padding-top: 10px;
+    }
+
+    .newsletterTitle{
+        text-align: left;
+        margin-left: 25px;
+    }
+
+    .subscribeButton{
+        margin-left: 0;
+        padding: 6px;
+    }
+
+    /*------CONTACT------*/
+
+    .contactSection{
+        padding-top: 25px;
+        padding-bottom:20px;
+    }
+
+    .contactCard1, .contactCard2, .contactCard3, .contactCard4{
+        width: 100%;
+        text-align: left;
+    }
+
+    .contactCardTitle{
+        text-align: left;
+    }
+
+    .contactCard1Info{
+        text-align: left;
+        margin: 0;
+    }
+
+    /*------FOOTER------*/
+    .footerSection{
+        padding: 12px 0;
+    }
+
+    .footerHeading{
+        padding-bottom: 12px;
+    }
+}
+
+
+
